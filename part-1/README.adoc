@@ -1,0 +1,20 @@
+= Part 1 - Browser Automation
+
+== The Task
+
+Your task is the following:
+
+. Make a list of all Grails 3 plugins in the format used in "The Grails Diary":
+
+ <li><!-- ${lastUpdated} --><a href="${pluginLink}" target="_blank">${pluginTitle}</a> (${version}) ${description}.</li>
+
+. Make a list of plugin publishers, and how many plugins they each have published.
+
+== Getting Started
+
+You should be able to run the Groovy script `plugins.groovy` as a stand alone script, and it should start a browser,
+go to the Grails 3 plugin page and nothing more. The first time, dependency resolution might take a bit of time.
+
+Start by locating the plugins section, and try to iterate over it, while gradually locating all the relevant information.
+
+
